@@ -2,97 +2,48 @@ options:
   collate: utf8_unicode_ci
   charset: utf8
 
-Book:
+Books:
   connection: doctrine
-  tableName: book
+  tableName: books
   columns:
     id:
-      type: integer(11)
-      fixed: false
-      unsigned: false
+      type: int
       primary: true
       autoincrement: true
+    author:
+      type: string(150)
     name:
-      type: string(250)
-      fixed: false
-      unsigned: false
-      primary: false
+      type: string(150)
       notnull: true
-      autoincrement: false
+    status:
+      type: string(10)
+      notnull: true
+    person_id:
+      type: int
+      notnull: true
     code:
       type: string(10)
-      fixed: false
-      unsigned: false
-      primary: false
-      notnull: true
-      autoincrement: false
   relations:
-    PeopleBook:
-      local: id
-      foreign: people_id
-      type: one
-      
-People:
-  connection: doctrine
-  tableName: people
-  columns:
-    id:
-      type: integer(11)
-      fixed: false
-      unsigned: false
-      primary: true
-      autoincrement: true
-    name:
-      type: string(250)
-      fixed: false
-      unsigned: false
-      primary: false
-      notnull: true
-      autoincrement: false
-    email:
-      type: string(250)
-      fixed: false
-      unsigned: false
-      primary: false
-      notnull: true
-      autoincrement: false
-  relations:
-    PeopleBook:
-      local: id
-      foreign: book_id
-      type: one
-      
-PeopleBook:
-  connection: doctrine
-  tableName: people_book
-  columns:
-    id:
-      type: integer(11)
-      fixed: false
-      unsigned: false
-      primary: true
-      autoincrement: true
-    people_id:
-      type: integer(11)
-      fixed: false
-      unsigned: false
-      primary: false
-      notnull: true
-      autoincrement: false
-    book_id:
-      type: integer(11)
-      fixed: false
-      unsigned: false
-      primary: false
-      notnull: true
-      autoincrement: false
-  relations:
-    People:
+    Person:
       local: people_id
       foreign: id
-      type: one
-    Book:
-      local: book_id
-      foreign: id
-      type: one
-      
+      onDelete: CASCADE
+Person:
+  connection: doctrine
+  tableName: person
+  columns:
+    id:
+      type: int
+      notnull: true
+      primary: true
+    code:
+      type: string(10)
+    name:
+      type: string(100)	
+    group:
+      type: int
+    adress:
+      type: string(100)
+    email:
+      type: string(100)
+      notnull: true
