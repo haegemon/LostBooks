@@ -17,7 +17,6 @@ abstract class BasePersonFormFilter extends BaseFormFilterDoctrine
       'name'         => new sfWidgetFormFilterInput(),
       'people_group' => new sfWidgetFormFilterInput(),
       'adress'       => new sfWidgetFormFilterInput(),
-      'email'        => new sfWidgetFormFilterInput(),
     ));
 
     $this->setValidators(array(
@@ -25,7 +24,6 @@ abstract class BasePersonFormFilter extends BaseFormFilterDoctrine
       'name'         => new sfValidatorPass(array('required' => false)),
       'people_group' => new sfValidatorPass(array('required' => false)),
       'adress'       => new sfValidatorPass(array('required' => false)),
-      'email'        => new sfValidatorPass(array('required' => false)),
     ));
 
     $this->widgetSchema->setNameFormat('person_filters[%s]');
@@ -45,7 +43,6 @@ abstract class BasePersonFormFilter extends BaseFormFilterDoctrine
   public function getFields()
   {
     return array(
-      'id'           => 'Number',
       'code'         => 'Text',
       'name'         => 'Text',
       'people_group' => 'Text',

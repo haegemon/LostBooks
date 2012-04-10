@@ -4,11 +4,11 @@
   <thead>
     <tr>
       <th>Id</th>
-      <th>Автор</th>
-      <th>Название</th>
-      <th>Состояние</th>
-      <th>Кто вы?</th>
-      <th>Библиотечный код</th>
+      <th>Author</th>
+      <th>Name</th>
+      <th>Status</th>
+      <th>Person mail</th>
+      <th>Code</th>
     </tr>
   </thead>
   <tbody>
@@ -18,7 +18,7 @@
       <td><?php echo $books->getAuthor() ?></td>
       <td><?php echo $books->getName() ?></td>
       <td><?php echo $books->getStatus() ?></td>
-      <td><?php echo $books->getPersonId() ?></td>
+      <td><?php echo $books->getPersonMail() ?></td>
       <td><?php echo $books->getCode() ?></td>
     </tr>
     <?php endforeach; ?>

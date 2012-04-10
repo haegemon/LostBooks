@@ -11,21 +11,22 @@ Doctrine_Manager::getInstance()->bindComponent('Books', 'doctrine');
  * @property string $author
  * @property string $name
  * @property string $status
- * @property integer $person_id
+ * @property string $person_mail
  * @property string $code
  * 
- * @method integer getId()        Returns the current record's "id" value
- * @method string  getAuthor()    Returns the current record's "author" value
- * @method string  getName()      Returns the current record's "name" value
- * @method string  getStatus()    Returns the current record's "status" value
- * @method integer getPersonId()  Returns the current record's "person_id" value
- * @method string  getCode()      Returns the current record's "code" value
- * @method Books   setId()        Sets the current record's "id" value
- * @method Books   setAuthor()    Sets the current record's "author" value
- * @method Books   setName()      Sets the current record's "name" value
- * @method Books   setStatus()    Sets the current record's "status" value
- * @method Books   setPersonId()  Sets the current record's "person_id" value
- * @method Books   setCode()      Sets the current record's "code" value
+ * @method integer getId()          Returns the current record's "id" value
+ * @method string  getAuthor()      Returns the current record's "author" value
+ * @method string  getName()        Returns the current record's "name" value
+ * @method string  getStatus()      Returns the current record's "status" value
+ * @method string  getPersonMail()  Returns the current record's "person_mail" value
+ * @method string  getCode()        Returns the current record's "code" value
+ * @method Books   setId()          Sets the current record's "id" value
+ * @method Books   setAuthor()      Sets the current record's "author" value
+ * @method Books   setName()        Sets the current record's "name" value
+ * @method Books   setStatus()      Sets the current record's "status" value
+ * @method Books   setPersonMail()  Sets the current record's "person_mail" value
+ * @method Books   setCode()        Sets the current record's "code" value
+ * @property  $
  * @property  $
  * 
  * @package    lostbook
@@ -73,14 +74,14 @@ abstract class BaseBooks extends sfDoctrineRecord
              'autoincrement' => false,
              'length' => 10,
              ));
-        $this->hasColumn('person_id', 'integer', 4, array(
-             'type' => 'integer',
+        $this->hasColumn('person_mail', 'string', 100, array(
+             'type' => 'string',
              'fixed' => 0,
              'unsigned' => false,
              'primary' => false,
              'notnull' => true,
              'autoincrement' => false,
-             'length' => 4,
+             'length' => 100,
              ));
         $this->hasColumn('code', 'string', 5, array(
              'type' => 'string',
@@ -99,8 +100,12 @@ abstract class BaseBooks extends sfDoctrineRecord
     public function setUp()
     {
         parent::setUp();
+        $this->hasOne('bookstypes', array(
+             'local' => 'status',
+             'foreign' => 'booktype'));
+
         $this->hasOne('person', array(
-             'local' => 'person_id',
-             'foreign' => 'id'));
+             'local' => 'person_mail',
+             'foreign' => 'email'));
     }
 }

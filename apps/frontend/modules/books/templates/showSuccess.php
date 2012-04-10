@@ -13,15 +13,15 @@
       <td><?php echo $books->getName() ?></td>
     </tr>
     <tr>
-      <th>Тип:</th>
+      <th>Текущий статус:</th>
       <td><?php echo $books->getStatus() ?></td>
     </tr>
     <tr>
-      <th>Кто вы?:</th>
-      <td><?php echo $books->getPersonId() ?></td>
+      <th>К кому обратиться?:</th>
+      <td><?php echo $books->getPersonMail() ?></td>
     </tr>
     <tr>
-      <th>Библиотечный код:</th>
+      <th>Библ. код:</th>
       <td><?php echo $books->getCode() ?></td>
     </tr>
   </tbody>

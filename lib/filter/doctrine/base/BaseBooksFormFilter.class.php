@@ -13,19 +13,19 @@ abstract class BaseBooksFormFilter extends BaseFormFilterDoctrine
   public function setup()
   {
     $this->setWidgets(array(
-      'author'    => new sfWidgetFormFilterInput(),
-      'name'      => new sfWidgetFormFilterInput(array('with_empty' => false)),
-      'status'    => new sfWidgetFormFilterInput(),
-      'person_id' => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('person'), 'add_empty' => true)),
-      'code'      => new sfWidgetFormFilterInput(),
+      'author'      => new sfWidgetFormFilterInput(),
+      'name'        => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'status'      => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('bookstypes'), 'add_empty' => true)),
+      'person_mail' => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('person'), 'add_empty' => true)),
+      'code'        => new sfWidgetFormFilterInput(),
     ));
 
     $this->setValidators(array(
-      'author'    => new sfValidatorPass(array('required' => false)),
-      'name'      => new sfValidatorPass(array('required' => false)),
-      'status'    => new sfValidatorPass(array('required' => false)),
-      'person_id' => new sfValidatorDoctrineChoice(array('required' => false, 'model' => $this->getRelatedModelName('person'), 'column' => 'id')),
-      'code'      => new sfValidatorPass(array('required' => false)),
+      'author'      => new sfValidatorPass(array('required' => false)),
+      'name'        => new sfValidatorPass(array('required' => false)),
+      'status'      => new sfValidatorDoctrineChoice(array('required' => false, 'model' => $this->getRelatedModelName('bookstypes'), 'column' => 'booktype')),
+      'person_mail' => new sfValidatorDoctrineChoice(array('required' => false, 'model' => $this->getRelatedModelName('person'), 'column' => 'email')),
+      'code'        => new sfValidatorPass(array('required' => false)),
     ));
 
     $this->widgetSchema->setNameFormat('books_filters[%s]');
@@ -45,12 +45,12 @@ abstract class BaseBooksFormFilter extends BaseFormFilterDoctrine
   public function getFields()
   {
     return array(
-      'id'        => 'Number',
-      'author'    => 'Text',
-      'name'      => 'Text',
-      'status'    => 'Text',
-      'person_id' => 'ForeignKey',
-      'code'      => 'Text',
+      'id'          => 'Number',
+      'author'      => 'Text',
+      'name'        => 'Text',
+      'status'      => 'ForeignKey',
+      'person_mail' => 'ForeignKey',
+      'code'        => 'Text',
     );
   }
 }

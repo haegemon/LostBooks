@@ -1,0 +1,5 @@
+BooksTypes:
+  founded:
+    booktype: Нашел
+  searching:
+    booktype: Ищу
