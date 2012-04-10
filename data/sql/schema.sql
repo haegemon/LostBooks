@@ -1,5 +1,8 @@
 CREATE TABLE book (id BIGINT AUTO_INCREMENT, name VARCHAR(250) NOT NULL, code VARCHAR(10) NOT NULL, PRIMARY KEY(id)) DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci ENGINE = INNODB;
+CREATE TABLE books (id INT AUTO_INCREMENT, author VARCHAR(100), name VARCHAR(100) NOT NULL, status VARCHAR(10), person_id INT NOT NULL, code VARCHAR(5), INDEX person_id_idx (person_id), PRIMARY KEY(id)) DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci ENGINE = INNODB;
 CREATE TABLE people (id BIGINT AUTO_INCREMENT, name VARCHAR(250) NOT NULL, email VARCHAR(250) NOT NULL, PRIMARY KEY(id)) DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci ENGINE = INNODB;
 CREATE TABLE people_book (id BIGINT AUTO_INCREMENT, people_id BIGINT NOT NULL, book_id BIGINT NOT NULL, INDEX people_id_idx (people_id), INDEX book_id_idx (book_id), PRIMARY KEY(id)) DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci ENGINE = INNODB;
+CREATE TABLE person (id INT AUTO_INCREMENT, code VARCHAR(5), name VARCHAR(100), `group` VARCHAR(3), adress VARCHAR(200), email VARCHAR(100), PRIMARY KEY(id)) DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci ENGINE = INNODB;
+ALTER TABLE books ADD CONSTRAINT books_person_id_person_id FOREIGN KEY (person_id) REFERENCES person(id);
 ALTER TABLE people_book ADD CONSTRAINT people_book_people_id_people_id FOREIGN KEY (people_id) REFERENCES people(id);
 ALTER TABLE people_book ADD CONSTRAINT people_book_book_id_book_id FOREIGN KEY (book_id) REFERENCES book(id);

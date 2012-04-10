@@ -2,48 +2,98 @@ options:
   collate: utf8_unicode_ci
   charset: utf8
 
+
 Books:
   connection: doctrine
   tableName: books
   columns:
     id:
-      type: int
+      type: integer(4)
+      fixed: false
+      unsigned: false
       primary: true
       autoincrement: true
     author:
-      type: string(150)
+      type: string(100)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
     name:
-      type: string(150)
+      type: string(100)
+      fixed: false
+      unsigned: false
+      primary: false
       notnull: true
+      autoincrement: false
     status:
       type: string(10)
-      notnull: true
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
     person_id:
-      type: int
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
       notnull: true
+      autoincrement: false
     code:
-      type: string(10)
+      type: string(5)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
   relations:
-    Person:
-      local: people_id
+    person:
+      local: person_id
       foreign: id
-      onDelete: CASCADE
 Person:
   connection: doctrine
   tableName: person
   columns:
     id:
-      type: int
-      notnull: true
+      type: integer(4)
+      fixed: false
+      unsigned: false
       primary: true
+      autoincrement: true
     code:
-      type: string(10)
+      type: string(5)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
     name:
-      type: string(100)	
-    group:
-      type: int
-    adress:
       type: string(100)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    `group`:
+      type: string(3)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    adress:
+      type: string(200)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
     email:
       type: string(100)
-      notnull: true
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
