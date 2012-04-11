@@ -76,7 +76,7 @@ Person:
       primary: false
       notnull: false
       autoincrement: false
-    `group`:
+    number_group:
       type: string(3)
       fixed: false
       unsigned: false
