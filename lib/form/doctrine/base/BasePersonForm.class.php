@@ -15,21 +15,21 @@ abstract class BasePersonForm extends BaseFormDoctrine
   public function setup()
   {
     $this->setWidgets(array(
-      'id'      => new sfWidgetFormInputHidden(),
-      'code'    => new sfWidgetFormInputText(),
-      'name'    => new sfWidgetFormInputText(),
-      '`group`' => new sfWidgetFormInputText(),
-      'adress'  => new sfWidgetFormInputText(),
-      'email'   => new sfWidgetFormInputText(),
+      'id'           => new sfWidgetFormInputHidden(),
+      'code'         => new sfWidgetFormInputText(),
+      'name'         => new sfWidgetFormInputText(),
+      'people_group' => new sfWidgetFormInputText(),
+      'adress'       => new sfWidgetFormInputText(),
+      'email'        => new sfWidgetFormInputText(),
     ));
 
     $this->setValidators(array(
-      'id'      => new sfValidatorChoice(array('choices' => array($this->getObject()->get('id')), 'empty_value' => $this->getObject()->get('id'), 'required' => false)),
-      'code'    => new sfValidatorString(array('max_length' => 5, 'required' => false)),
-      'name'    => new sfValidatorString(array('max_length' => 100, 'required' => false)),
-      '`group`' => new sfValidatorString(array('max_length' => 3, 'required' => false)),
-      'adress'  => new sfValidatorString(array('max_length' => 200, 'required' => false)),
-      'email'   => new sfValidatorString(array('max_length' => 100, 'required' => false)),
+      'id'           => new sfValidatorChoice(array('choices' => array($this->getObject()->get('id')), 'empty_value' => $this->getObject()->get('id'), 'required' => false)),
+      'code'         => new sfValidatorString(array('max_length' => 5, 'required' => false)),
+      'name'         => new sfValidatorString(array('max_length' => 100, 'required' => false)),
+      'people_group' => new sfValidatorString(array('max_length' => 3, 'required' => false)),
+      'adress'       => new sfValidatorString(array('max_length' => 200, 'required' => false)),
+      'email'        => new sfValidatorString(array('max_length' => 100, 'required' => false)),
     ));
 
     $this->widgetSchema->setNameFormat('person[%s]');

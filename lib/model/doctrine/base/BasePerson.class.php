@@ -10,20 +10,22 @@ Doctrine_Manager::getInstance()->bindComponent('Person', 'doctrine');
  * @property integer $id
  * @property string $code
  * @property string $name
- * @property string $`group`
+ * @property string $people_group
  * @property string $adress
  * @property string $email
  * 
- * @method integer getId()     Returns the current record's "id" value
- * @method string  getCode()   Returns the current record's "code" value
- * @method string  getName()   Returns the current record's "name" value
- * @method string  getAdress() Returns the current record's "adress" value
- * @method string  getEmail()  Returns the current record's "email" value
- * @method Person  setId()     Sets the current record's "id" value
- * @method Person  setCode()   Sets the current record's "code" value
- * @method Person  setName()   Sets the current record's "name" value
- * @method Person  setAdress() Sets the current record's "adress" value
- * @method Person  setEmail()  Sets the current record's "email" value
+ * @method integer getId()           Returns the current record's "id" value
+ * @method string  getCode()         Returns the current record's "code" value
+ * @method string  getName()         Returns the current record's "name" value
+ * @method string  getPeopleGroup()  Returns the current record's "people_group" value
+ * @method string  getAdress()       Returns the current record's "adress" value
+ * @method string  getEmail()        Returns the current record's "email" value
+ * @method Person  setId()           Sets the current record's "id" value
+ * @method Person  setCode()         Sets the current record's "code" value
+ * @method Person  setName()         Sets the current record's "name" value
+ * @method Person  setPeopleGroup()  Sets the current record's "people_group" value
+ * @method Person  setAdress()       Sets the current record's "adress" value
+ * @method Person  setEmail()        Sets the current record's "email" value
  * 
  * @package    lostbook
  * @subpackage model
@@ -61,7 +63,7 @@ abstract class BasePerson extends sfDoctrineRecord
              'autoincrement' => false,
              'length' => 100,
              ));
-        $this->hasColumn('`group`', 'string', 3, array(
+        $this->hasColumn('people_group', 'string', 3, array(
              'type' => 'string',
              'fixed' => 0,
              'unsigned' => false,

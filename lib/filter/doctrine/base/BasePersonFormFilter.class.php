@@ -13,19 +13,19 @@ abstract class BasePersonFormFilter extends BaseFormFilterDoctrine
   public function setup()
   {
     $this->setWidgets(array(
-      'code'    => new sfWidgetFormFilterInput(),
-      'name'    => new sfWidgetFormFilterInput(),
-      '`group`' => new sfWidgetFormFilterInput(),
-      'adress'  => new sfWidgetFormFilterInput(),
-      'email'   => new sfWidgetFormFilterInput(),
+      'code'         => new sfWidgetFormFilterInput(),
+      'name'         => new sfWidgetFormFilterInput(),
+      'people_group' => new sfWidgetFormFilterInput(),
+      'adress'       => new sfWidgetFormFilterInput(),
+      'email'        => new sfWidgetFormFilterInput(),
     ));
 
     $this->setValidators(array(
-      'code'    => new sfValidatorPass(array('required' => false)),
-      'name'    => new sfValidatorPass(array('required' => false)),
-      '`group`' => new sfValidatorPass(array('required' => false)),
-      'adress'  => new sfValidatorPass(array('required' => false)),
-      'email'   => new sfValidatorPass(array('required' => false)),
+      'code'         => new sfValidatorPass(array('required' => false)),
+      'name'         => new sfValidatorPass(array('required' => false)),
+      'people_group' => new sfValidatorPass(array('required' => false)),
+      'adress'       => new sfValidatorPass(array('required' => false)),
+      'email'        => new sfValidatorPass(array('required' => false)),
     ));
 
     $this->widgetSchema->setNameFormat('person_filters[%s]');
@@ -45,12 +45,12 @@ abstract class BasePersonFormFilter extends BaseFormFilterDoctrine
   public function getFields()
   {
     return array(
-      'id'      => 'Number',
-      'code'    => 'Text',
-      'name'    => 'Text',
-      '`group`' => 'Text',
-      'adress'  => 'Text',
-      'email'   => 'Text',
+      'id'           => 'Number',
+      'code'         => 'Text',
+      'name'         => 'Text',
+      'people_group' => 'Text',
+      'adress'       => 'Text',
+      'email'        => 'Text',
     );
   }
 }
