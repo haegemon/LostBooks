@@ -12,8 +12,34 @@
     <?php include_javascripts() ?>
   </head>
   <body>
-  <center>
-      <?php echo $sf_content ?>
-  </center>
+    <div id="container">
+      <div id="header">
+      
+      </div>
+
+      <div id="divider">
+      
+      </div>
+      <div id="menu">
+        <center>
+          Здесь будем меню
+        </center>
+      </div>
+      <div id="divider2">
+      </div>
+      <div id="content">
+          <center>
+          <div id="table">
+          <?php echo $sf_content ?>
+          </div>
+          </center>
+      </div>
+      <div id="foot">
+        <br>
+        Связаться <a href="mailto:web.mipt@gmail.com">web.mipt@gmail.com</a><br>
+        
+        WEB-MIPT 2012<br>
+      </div>
+    </div>
   </body>
 </html>
