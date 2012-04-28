@@ -15,802 +15,688 @@ BooksTypes:
 
 Books:
   admin0:
-    author: author
-    name: lalala
+    author: Михаил Булгаков
+    name: Мастер и Маргарита
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2011-2-14
   admin1:
-    author: author
-    name: lalala
+    author: Артур Конан
+    name: Дойль
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2012-6-11
   admin2:
-    author: author
-    name: lalala
+    author: Федор Достоевский
+    name: Преступление и наказание
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2011-12-1
   admin3:
-    author: author
-    name: lalala
+    author: Илья Ильф
+    name: Евгений Петров
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2011-10-16
   admin4:
-    author: author
-    name: lalala
+    author: Антуан де Сент
+    name: Экзюпери
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2011-8-13
   admin5:
-    author: author
-    name: lalala
+    author: Александр Пушкин
+    name: Евгений Онегин
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2011-9-16
   admin6:
-    author: author
-    name: lalala
+    author: Михаил Булгаков
+    name: Собачье сердце
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2011-12-27
   admin7:
-    author: author
-    name: lalala
+    author: Лев Толстой
+    name: Война и мир
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2011-12-8
   admin8:
-    author: author
-    name: lalala
+    author: Михаил Лермонтов
+    name: Герой нашего времени
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2011-3-9
   admin9:
-    author: author
-    name: lalala
+    author: Александр Дюма
+    name: Граф Монте
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2012-8-23
   admin10:
-    author: author
-    name: lalala
+    author: Оскар Уайльд
+    name: Портрет Дориана Грея
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2011-1-12
   admin11:
-    author: author
-    name: lalala
+    author: Эрих Мария Ремарк
+    name: Три товарища
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2011-5-8
   admin12:
-    author: author
-    name: lalala
+    author: Антон Чехов
+    name: Рассказы
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2012-6-19
   admin13:
-    author: author
-    name: lalala
+    author: Маргарет Митчелл
+    name: Унесённые ветром
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2011-12-1
   admin14:
-    author: author
-    name: lalala
+    author: Генри
+    name: Рассказы
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2012-8-14
   admin15:
-    author: author
-    name: lalala
+    author: Уильям Шекспир
+    name: Ромео и Джульета
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2012-12-8
   admin16:
-    author: author
-    name: lalala
+    author: Александр Дюма
+    name: Три мушкетера
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2011-10-12
   admin17:
-    author: author
-    name: lalala
+    author: Федор Достоевский
+    name: Идиот
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2012-8-22
   admin18:
-    author: author
-    name: lalala
+    author: Николай Гоголь
+    name: Мёртвые души
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2011-11-7
   admin19:
-    author: author
-    name: lalala
+    author: Александр Грибоедов
+    name: Горе от ума
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2012-5-27
   admin20:
-    author: author
-    name: lalala
+    author: Марк Твен
+    name: Приключения Тома Сойера
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2011-11-19
   admin21:
-    author: author
-    name: lalala
+    author: Илья Ильф
+    name: Евгений Петров
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2012-6-8
   admin22:
-    author: author
-    name: lalala
+    author: Николай Носов
+    name: Приключения Незнайки и его друзей
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2011-6-10
   admin23:
-    author: author
-    name: lalala
+    author: Лев Толстой
+    name: Анна Каренина
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2011-9-3
   admin24:
-    author: author
-    name: lalala
+    author: Николай Гоголь
+    name: Вечера на хуторе близ Диканьки
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2012-9-21
   admin25:
-    author: author
-    name: lalala
+    author: Иоганн Вольфганг фон Гёте
+    name: Фауст
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2012-7-22
   admin26:
-    author: author
-    name: lalala
+    author: Даниель Дефо
+    name: Робинзон Крузо
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2012-11-25
   admin27:
-    author: author
-    name: lalala
+    author: Джейн Остин
+    name: Гордость и предубеждение
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2012-5-16
   admin28:
-    author: author
-    name: lalala
+    author: Шарлотта Бронте
+    name: Джейн Эйр
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2012-11-9
   admin29:
-    author: author
-    name: lalala
+    author: Федор Достоевский
+    name: Братья Карамазовы
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2012-9-23
   admin30:
-    author: author
-    name: lalala
+    author: Ганс Христиан Андерсен
+    name: Сказки
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2011-5-2
   admin31:
-    author: author
-    name: lalala
+    author: Уильям Шекспир
+    name: Гамлет
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2012-12-17
   admin32:
-    author: author
-    name: lalala
+    author: Виктор Гюго
+    name: Собор Парижской Богоматери
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2012-11-6
   admin33:
-    author: author
-    name: lalala
+    author: Габриэль Гарсиа Маркес
+    name: Сто лет одиночества
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2012-6-2
   admin34:
-    author: author
-    name: lalala
+    author: Михаил Шолохов
+    name: Тихий Дон
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2012-12-10
   admin35:
-    author: author
-    name: lalala
+    author: Александр Грин
+    name: Алые паруса
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2012-7-11
   admin36:
-    author: author
-    name: lalala
+    author: Иван Тургенев
+    name: Отцы и дети
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2012-12-12
   admin37:
-    author: author
-    name: lalala
+    author: Александр Волков
+    name: Волшебник Изумрудного города
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2011-9-27
   admin38:
-    author: author
-    name: lalala
+    author: Артур Конан
+    name: Дойль
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2011-11-21
   admin39:
-    author: author
-    name: lalala
+    author: Рэй Брэдбери
+    name: градус по Фаренгейту
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2012-6-8
   admin40:
-    author: author
-    name: lalala
+    author: Вениамин Каверин
+    name: Два капитана
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2012-12-22
   admin41:
-    author: author
-    name: lalala
+    author: Джек Лондон
+    name: Белый Клык
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2012-2-2
   admin42:
-    author: author
-    name: lalala
+    author: Джон Толкиен
+    name: Властелин колец
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2011-6-21
   admin43:
-    author: author
-    name: lalala
+    author: Александр Пушкин
+    name: Капитанская дочка
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2012-6-22
   admin44:
-    author: author
-    name: lalala
+    author: Иван Гончаров
+    name: Обломов
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2012-10-18
   admin45:
-    author: author
-    name: lalala
+    author: Астрид Линдгрен
+    name: Малыш и Карлсон
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2012-4-24
   admin46:
-    author: author
-    name: lalala
+    author: Эрнест Хемингуэй
+    name: Старик и море
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2011-11-21
   admin47:
-    author: author
-    name: lalala
+    author: Борис Васильев
+    name: А зори здесь тихие
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2012-3-24
   admin48:
-    author: author
-    name: lalala
+    author: Роберт Льюис Стивенсон
+    name: Остров сокровищ
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2011-9-23
   admin49:
-    author: author
-    name: lalala
+    author: Джером Д
+    name: Сэлинджер
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2011-4-1
   admin50:
-    author: author
-    name: lalala
+    author: Льюис Кэрролл
+    name: Алиса в стране чудес
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2012-12-27
   admin51:
-    author: author
-    name: lalala
+    author: Эрих Мария Ремарк
+    name: Триумфальная арка
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2011-2-27
   admin52:
-    author: author
-    name: lalala
+    author: Жюль Верн
+    name: Дети капитана Гранта
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2011-3-26
   admin53:
-    author: author
-    name: lalala
+    author: Марк Твен
+    name: Приключения Гекльберри Финна
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2012-4-27
   admin54:
-    author: author
-    name: lalala
+    author: Николай Гоголь
+    name: Тарас Бульба
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2011-10-23
   admin55:
-    author: author
-    name: lalala
+    author: Николай Гоголь
+    name: Ревизор
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2011-8-12
   admin56:
-    author: author
-    name: lalala
+    author: Кен Кизи
+    name: Пролетая над гнездом кукушки
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2012-6-27
   admin57:
-    author: author
-    name: lalala
+    author: Алан Александр Милн
+    name: Винни
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2011-2-10
   admin58:
-    author: author
-    name: lalala
+    author: Патрик Зюскинд
+    name: Парфюмер
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2011-10-22
   admin59:
-    author: author
-    name: lalala
+    author: Джоан Роулинг
+    name: Серия книг о Гарри Поттере
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2012-8-1
   admin60:
-    author: author
-    name: lalala
+    author: Жюль Верн
+    name: Таинственный остров
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2012-2-11
   admin61:
-    author: author
-    name: lalala
+    author: Борис Акунин
+    name: Приключения Эраста Фандорина
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2011-4-24
   admin62:
-    author: author
-    name: lalala
+    author: Леонид Филатов
+    name: Про Федота
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2012-12-17
   admin63:
-    author: author
-    name: lalala
+    author: Аркадий и Борис Стругацкие
+    name: Пикник на обочине
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2012-8-24
   admin64:
-    author: author
-    name: lalala
+    author: Колин Маккалоу
+    name: Поющие в терновнике
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2012-4-3
   admin65:
-    author: author
-    name: lalala
+    author: Эрих Мария Ремарк
+    name: На западном фронте без перемен
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
-  admin66:
-    author: author
-    name: lalala
-    status: Нашел
-    person_id: 1
-    code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2011-2-21
   admin67:
-    author: author
-    name: lalala
+    author: Джек Лондон
+    name: Мартин Иден
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2012-7-2
   admin68:
-    author: author
-    name: lalala
+    author: Эмили Бронте
+    name: Грозовой перевал
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2012-10-16
   admin69:
-    author: author
-    name: lalala
+    author: Антон Чехов
+    name: Палата
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2011-7-16
   admin70:
-    author: author
-    name: lalala
+    author: Михаил Булгаков
+    name: Белая гвардия
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2012-5-17
   admin71:
-    author: author
-    name: lalala
+    author: Аркадий и Борис Стругацкие
+    name: Трудно быть богом
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2011-9-17
   admin72:
-    author: author
-    name: lalala
+    author: Александр Пушкин
+    name: Повести Белкина
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2011-4-26
   admin73:
-    author: author
-    name: lalala
+    author: Джером К
+    name: Джером
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2012-3-16
   admin74:
-    author: author
-    name: lalala
+    author: Владимир Высоцкий
+    name: Нерв
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2012-12-10
   admin75:
-    author: author
-    name: lalala
+    author: Борис Пастернак
+    name: Доктор Живаго
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2012-10-17
   admin76:
-    author: author
-    name: lalala
+    author: Виктор Гюго
+    name: Отверженные
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2011-4-6
   admin77:
-    author: author
-    name: lalala
+    author: Александр Беляев
+    name: Человек
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2011-12-25
   admin78:
-    author: author
-    name: lalala
+    author: Стендаль
+    name: Красное и чёрное
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2011-3-23
   admin79:
-    author: author
-    name: lalala
+    author: Эдгар По
+    name: Рассказы
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2012-3-20
   admin80:
-    author: author
-    name: lalala
+    author: Александр Пушкин
+    name: Сказка о рыбаке и рыбке
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2012-10-27
   admin81:
-    author: author
-    name: lalala
+    author: Алексей Толстой
+    name: Пётр
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2012-8-1
   admin82:
-    author: author
-    name: lalala
+    author: Марк Твен
+    name: Принц и нищий
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2011-5-3
   admin83:
-    author: author
-    name: lalala
+    author: Теодор Драйзер
+    name: Американская трагедия
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2011-4-2
   admin84:
-    author: author
-    name: lalala
+    author: Мигель Сервантес
+    name: Дон Кихот
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2012-8-24
   admin85:
-    author: author
-    name: lalala
+    author: Гавриил Троепольский
+    name: Белый Бим Черное Ухо
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2011-6-19
   admin86:
-    author: author
-    name: lalala
+    author: Аркадий и Борис Стругацкие
+    name: Понедельник начинается в субботу
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2012-12-8
   admin87:
-    author: author
-    name: lalala
+    author: Уильям Шекспир
+    name: Король Лир
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2012-9-20
   admin88:
-    author: author
-    name: lalala
+    author: Иван Бунин
+    name: Тёмные аллеи
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2011-12-8
   admin89:
-    author: author
-    name: lalala
+    author: Герман Гессе
+    name: Степной волк
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2011-12-24
   admin90:
-    author: author
-    name: lalala
+    author: Эрих Мария Ремарк
+    name: Жизнь взаймы
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2012-1-24
   admin91:
-    author: author
-    name: lalala
+    author: Герман Гессе
+    name: Игра в бисер
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2012-11-18
   admin92:
-    author: author
-    name: lalala
+    author: Жюль Верн
+    name: Пятнадцатилетний капитан
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2011-5-14
   admin93:
-    author: author
-    name: lalala
+    author: Евгений Шварц
+    name: Обыкновенное чудо
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2012-5-21
   admin94:
-    author: author
-    name: lalala
+    author: Ярослав Гашек
+    name: Похождения бравого солдата Швейка во время мировой войны
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2012-11-12
   admin95:
-    author: author
-    name: lalala
+    author: Фрэнсис Скотт Фицджеральд
+    name: Великий Гэтсби
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2012-11-26
   admin96:
-    author: author
-    name: lalala
+    author: Дэниел Киз
+    name: Цветы для Элджернона
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2012-8-9
   admin97:
-    author: author
-    name: lalala
+    author: Виктор Драгунский
+    name: Денискины рассказы
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2011-10-25
   admin98:
-    author: author
-    name: lalala
+    author: Станислав Лем
+    name: Солярис
     status: Нашел
     person_id: 1
     code: 1
-    date_of: '1993-06-23'
-
-  admin99:
-    author: author
-    name: lalala
-    status: Нашел
-    person_id: 1
-    code: 1
-    date_of: '1993-06-23'
-
+    date_of: 2012-1-26
