@@ -9,11 +9,11 @@
     <tfoot>
       <tr>
         <td colspan="2">
-          &nbsp;<a href="<?php echo url_for('books/index') ?>">Back to list</a>
+          &nbsp;<a href="<?php echo url_for('books/index') ?>"><div id='button1'>К списку</div></a>
           <?php if (!$form->getObject()->isNew()): ?>
             &nbsp;<?php echo link_to('Delete', 'books/delete?id='.$form->getObject()->getId(), array('method' => 'delete', 'confirm' => 'Are you sure?')) ?>
           <?php endif; ?>
-          <input type="submit" value="Save" />
+          <input type="submit" id='button1' value="Save" />
         </td>
       </tr>
     </tfoot>

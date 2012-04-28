@@ -29,7 +29,7 @@ Books:
       fixed: false
       unsigned: false
       primary: false
-      notnull: false
+      notnull: true
       autoincrement: false
     name:
       type: string(100)
@@ -43,10 +43,10 @@ Books:
       fixed: false
       unsigned: false
       primary: false
-      notnull: false
+      notnull: true
       autoincrement: false
-    person_mail:
-      type: string(100)
+    person_id:
+      type: integer(4)
       fixed: false
       unsigned: false
       primary: false
@@ -59,17 +59,24 @@ Books:
       primary: false
       notnull: false
       autoincrement: false
+    date_of:
+      type: date
+      notnull: true
   relations:
     bookstypes:
       local: status
       foreign: booktype
     person:
-      local: person_mail
-      foreign: email
+      local: person_id
+      foreign: id
 Person:
   connection: doctrine
   tableName: person
   columns:
+    id:
+      type: integer(4)
+      primary: true
+      autoincrement: true
     code:
       type: string(5)
       fixed: false
@@ -102,6 +109,6 @@ Person:
       type: string(100)
       fixed: false
       unsigned: false
-      primary: true
+      primary: false
       notnull: true
       autoincrement: false

@@ -11,21 +11,24 @@ Doctrine_Manager::getInstance()->bindComponent('Books', 'doctrine');
  * @property string $author
  * @property string $name
  * @property string $status
- * @property string $person_mail
+ * @property integer $person_id
  * @property string $code
+ * @property date $date_of
  * 
- * @method integer getId()          Returns the current record's "id" value
- * @method string  getAuthor()      Returns the current record's "author" value
- * @method string  getName()        Returns the current record's "name" value
- * @method string  getStatus()      Returns the current record's "status" value
- * @method string  getPersonMail()  Returns the current record's "person_mail" value
- * @method string  getCode()        Returns the current record's "code" value
- * @method Books   setId()          Sets the current record's "id" value
- * @method Books   setAuthor()      Sets the current record's "author" value
- * @method Books   setName()        Sets the current record's "name" value
- * @method Books   setStatus()      Sets the current record's "status" value
- * @method Books   setPersonMail()  Sets the current record's "person_mail" value
- * @method Books   setCode()        Sets the current record's "code" value
+ * @method integer getId()        Returns the current record's "id" value
+ * @method string  getAuthor()    Returns the current record's "author" value
+ * @method string  getName()      Returns the current record's "name" value
+ * @method string  getStatus()    Returns the current record's "status" value
+ * @method integer getPersonId()  Returns the current record's "person_id" value
+ * @method string  getCode()      Returns the current record's "code" value
+ * @method date    getDateOf()    Returns the current record's "date_of" value
+ * @method Books   setId()        Sets the current record's "id" value
+ * @method Books   setAuthor()    Sets the current record's "author" value
+ * @method Books   setName()      Sets the current record's "name" value
+ * @method Books   setStatus()    Sets the current record's "status" value
+ * @method Books   setPersonId()  Sets the current record's "person_id" value
+ * @method Books   setCode()      Sets the current record's "code" value
+ * @method Books   setDateOf()    Sets the current record's "date_of" value
  * @property  $
  * @property  $
  * 
@@ -52,7 +55,7 @@ abstract class BaseBooks extends sfDoctrineRecord
              'fixed' => 0,
              'unsigned' => false,
              'primary' => false,
-             'notnull' => false,
+             'notnull' => true,
              'autoincrement' => false,
              'length' => 100,
              ));
@@ -70,18 +73,18 @@ abstract class BaseBooks extends sfDoctrineRecord
              'fixed' => 0,
              'unsigned' => false,
              'primary' => false,
-             'notnull' => false,
+             'notnull' => true,
              'autoincrement' => false,
              'length' => 10,
              ));
-        $this->hasColumn('person_mail', 'string', 100, array(
-             'type' => 'string',
+        $this->hasColumn('person_id', 'integer', 4, array(
+             'type' => 'integer',
              'fixed' => 0,
              'unsigned' => false,
              'primary' => false,
              'notnull' => true,
              'autoincrement' => false,
-             'length' => 100,
+             'length' => 4,
              ));
         $this->hasColumn('code', 'string', 5, array(
              'type' => 'string',
@@ -91,6 +94,10 @@ abstract class BaseBooks extends sfDoctrineRecord
              'notnull' => false,
              'autoincrement' => false,
              'length' => 5,
+             ));
+        $this->hasColumn('date_of', 'date', null, array(
+             'type' => 'date',
+             'notnull' => true,
              ));
 
         $this->option('collate', 'utf8_unicode_ci');
@@ -105,7 +112,7 @@ abstract class BaseBooks extends sfDoctrineRecord
              'foreign' => 'booktype'));
 
         $this->hasOne('person', array(
-             'local' => 'person_mail',
-             'foreign' => 'email'));
+             'local' => 'person_id',
+             'foreign' => 'id'));
     }
 }

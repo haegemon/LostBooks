@@ -20,18 +20,32 @@
       <div id="divider">
       
       </div>
+      <div id="search">
+      <form action="" method="get">
+      <font size=+3>&#9;&#9;&#9;<i>Поиск книг:</i></font><br>
+      <font size=-2 color=#aaaaaa>Введите сюда библиотечный код, или название:  </font><INPUT type="text">
+      </form>
+      </div>
       <div id="menu">
         <center>
-          Здесь будем меню
+          <br>
+          <ul>
+          <li><a href="<?php echo url_for('books/new') ?>"><font color=#fafafa><div id='th'>Создать новую книгу</div></font></a><br><font size=-2>если нашли или потеряли</font><br>
+&nbsp;
+          <li><div id='th'>Связаться</div>
+&nbsp;
+          <li><div id='th'>Полезные ссылки</div>
+&nbsp;
+          <li>Что-то еще (фантазия истощилась)
+          </ul>
         </center>
       </div>
       <div id="divider2">
       </div>
       <div id="content">
+          <br><br><br>
           <center>
-          <div id="table">
           <?php echo $sf_content ?>
-          </div>
           </center>
       </div>
       <div id="foot">

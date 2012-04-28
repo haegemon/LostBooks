@@ -1,0 +1,816 @@
+Person:
+  admin:
+    id: 1
+    code: 645
+    name: Admin
+    people_group: 071
+    adress: 7-402
+    email: stanislavkaledin@rambler.ru
+
+BooksTypes:
+  founded:
+    booktype: Нашел
+  searching:
+    booktype: Ищу
+
+Books:
+  admin0:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin1:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin2:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin3:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin4:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin5:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin6:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin7:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin8:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin9:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin10:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin11:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin12:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin13:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin14:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin15:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin16:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin17:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin18:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin19:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin20:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin21:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin22:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin23:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin24:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin25:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin26:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin27:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin28:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin29:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin30:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin31:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin32:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin33:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin34:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin35:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin36:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin37:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin38:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin39:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin40:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin41:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin42:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin43:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin44:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin45:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin46:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin47:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin48:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin49:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin50:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin51:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin52:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin53:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin54:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin55:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin56:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin57:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin58:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin59:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin60:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin61:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin62:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin63:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin64:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin65:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin66:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin67:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin68:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin69:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin70:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin71:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin72:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin73:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin74:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin75:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin76:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin77:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin78:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin79:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin80:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin81:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin82:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin83:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin84:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin85:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin86:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin87:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin88:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin89:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin90:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin91:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin92:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin93:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin94:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin95:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin96:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin97:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin98:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+
+  admin99:
+    author: author
+    name: lalala
+    status: Нашел
+    person_id: 1
+    code: 1
+    date_of: '1993-06-23'
+

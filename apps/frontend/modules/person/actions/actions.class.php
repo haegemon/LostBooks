@@ -19,7 +19,7 @@ class personActions extends sfActions
 
   public function executeShow(sfWebRequest $request)
   {
-    $this->person = Doctrine_Core::getTable('Person')->find(array($request->getParameter('id')));
+    $this->person = Doctrine_Core::getTable('Person')->find(array($request->getParameter('email')));
     $this->forward404Unless($this->person);
   }
 
@@ -41,14 +41,14 @@ class personActions extends sfActions
 
   public function executeEdit(sfWebRequest $request)
   {
-    $this->forward404Unless($person = Doctrine_Core::getTable('Person')->find(array($request->getParameter('id'))), sprintf('Object person does not exist (%s).', $request->getParameter('id')));
+    $this->forward404Unless($person = Doctrine_Core::getTable('Person')->find(array($request->getParameter('email'))), sprintf('Object person does not exist (%s).', $request->getParameter('email')));
     $this->form = new PersonForm($person);
   }
 
   public function executeUpdate(sfWebRequest $request)
   {
     $this->forward404Unless($request->isMethod(sfRequest::POST) || $request->isMethod(sfRequest::PUT));
-    $this->forward404Unless($person = Doctrine_Core::getTable('Person')->find(array($request->getParameter('id'))), sprintf('Object person does not exist (%s).', $request->getParameter('id')));
+    $this->forward404Unless($person = Doctrine_Core::getTable('Person')->find(array($request->getParameter('email'))), sprintf('Object person does not exist (%s).', $request->getParameter('email')));
     $this->form = new PersonForm($person);
 
     $this->processForm($request, $this->form);
@@ -60,7 +60,7 @@ class personActions extends sfActions
   {
     $request->checkCSRFProtection();
 
-    $this->forward404Unless($person = Doctrine_Core::getTable('Person')->find(array($request->getParameter('id'))), sprintf('Object person does not exist (%s).', $request->getParameter('id')));
+    $this->forward404Unless($person = Doctrine_Core::getTable('Person')->find(array($request->getParameter('email'))), sprintf('Object person does not exist (%s).', $request->getParameter('email')));
     $person->delete();
 
     $this->redirect('person/index');
@@ -73,7 +73,7 @@ class personActions extends sfActions
     {
       $person = $form->save();
 
-      $this->redirect('person/edit?id='.$person->getId());
+      $this->redirect('person/edit?email='.$person->getEmail());
     }
   }
 }
