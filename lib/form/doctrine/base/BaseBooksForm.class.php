@@ -31,7 +31,7 @@ abstract class BaseBooksForm extends BaseFormDoctrine
       'status'    => new sfValidatorDoctrineChoice(array('model' => $this->getRelatedModelName('bookstypes'))),
       'person_id' => new sfValidatorDoctrineChoice(array('model' => $this->getRelatedModelName('person'))),
       'code'      => new sfValidatorString(array('max_length' => 5, 'required' => false)),
-      'date_of'   => new sfValidatorDate(),
+      'date_of'   => new sfValidatorDate(array('required' => false)),
     ));
 
     $this->widgetSchema->setNameFormat('books[%s]');

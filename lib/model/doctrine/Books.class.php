@@ -11,4 +11,9 @@
  * @version    SVN: $Id: Builder.php 7490 2010-03-29 19:53:27Z jwage $
  */
 class Books extends BaseBooks{
+  public function save(Doctrine_Connection $conn=null){
+    if(!$this->isNew() && !$this->getDateOf()){
+      $this->setDateOf(date('Y-m-d', time()));
+    }
+  }
 }

@@ -61,7 +61,7 @@ Books:
       autoincrement: false
     date_of:
       type: date
-      notnull: true
+      notnull: false
   relations:
     bookstypes:
       local: status

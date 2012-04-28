@@ -97,7 +97,7 @@ abstract class BaseBooks extends sfDoctrineRecord
              ));
         $this->hasColumn('date_of', 'date', null, array(
              'type' => 'date',
-             'notnull' => true,
+             'notnull' => false,
              ));
 
         $this->option('collate', 'utf8_unicode_ci');

@@ -20,683 +20,683 @@ Books:
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2011-2-14
+    date_of: '2012-11-19'
   admin1:
     author: Артур Конан
     name: Дойль
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2012-6-11
+    date_of: '2012-12-21'
   admin2:
     author: Федор Достоевский
     name: Преступление и наказание
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2011-12-1
+    date_of: '2011-10-2'
   admin3:
     author: Илья Ильф
     name: Евгений Петров
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2011-10-16
+    date_of: '2012-6-24'
   admin4:
     author: Антуан де Сент
     name: Экзюпери
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2011-8-13
+    date_of: '2011-9-6'
   admin5:
     author: Александр Пушкин
     name: Евгений Онегин
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2011-9-16
+    date_of: '2011-3-17'
   admin6:
     author: Михаил Булгаков
     name: Собачье сердце
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2011-12-27
+    date_of: '2011-2-26'
   admin7:
     author: Лев Толстой
     name: Война и мир
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2011-12-8
+    date_of: '2011-8-19'
   admin8:
     author: Михаил Лермонтов
     name: Герой нашего времени
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2011-3-9
+    date_of: '2011-8-27'
   admin9:
     author: Александр Дюма
     name: Граф Монте
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2012-8-23
+    date_of: '2012-10-16'
   admin10:
     author: Оскар Уайльд
     name: Портрет Дориана Грея
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2011-1-12
+    date_of: '2012-3-9'
   admin11:
     author: Эрих Мария Ремарк
     name: Три товарища
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2011-5-8
+    date_of: '2012-9-18'
   admin12:
     author: Антон Чехов
     name: Рассказы
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2012-6-19
+    date_of: '2012-2-27'
   admin13:
     author: Маргарет Митчелл
     name: Унесённые ветром
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2011-12-1
+    date_of: '2012-5-26'
   admin14:
     author: Генри
     name: Рассказы
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2012-8-14
+    date_of: '2012-8-1'
   admin15:
     author: Уильям Шекспир
     name: Ромео и Джульета
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2012-12-8
+    date_of: '2012-10-13'
   admin16:
     author: Александр Дюма
     name: Три мушкетера
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2011-10-12
+    date_of: '2012-2-19'
   admin17:
     author: Федор Достоевский
     name: Идиот
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2012-8-22
+    date_of: '2011-9-20'
   admin18:
     author: Николай Гоголь
     name: Мёртвые души
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2011-11-7
+    date_of: '2011-7-21'
   admin19:
     author: Александр Грибоедов
     name: Горе от ума
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2012-5-27
+    date_of: '2011-10-14'
   admin20:
     author: Марк Твен
     name: Приключения Тома Сойера
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2011-11-19
+    date_of: '2011-10-11'
   admin21:
     author: Илья Ильф
     name: Евгений Петров
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2012-6-8
+    date_of: '2012-3-15'
   admin22:
     author: Николай Носов
     name: Приключения Незнайки и его друзей
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2011-6-10
+    date_of: '2012-6-21'
   admin23:
     author: Лев Толстой
     name: Анна Каренина
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2011-9-3
+    date_of: '2011-12-26'
   admin24:
     author: Николай Гоголь
     name: Вечера на хуторе близ Диканьки
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2012-9-21
+    date_of: '2012-5-8'
   admin25:
     author: Иоганн Вольфганг фон Гёте
     name: Фауст
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2012-7-22
+    date_of: '2012-5-22'
   admin26:
     author: Даниель Дефо
     name: Робинзон Крузо
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2012-11-25
+    date_of: '2012-1-24'
   admin27:
     author: Джейн Остин
     name: Гордость и предубеждение
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2012-5-16
+    date_of: '2012-2-2'
   admin28:
     author: Шарлотта Бронте
     name: Джейн Эйр
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2012-11-9
+    date_of: '2012-6-16'
   admin29:
     author: Федор Достоевский
     name: Братья Карамазовы
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2012-9-23
+    date_of: '2011-11-12'
   admin30:
     author: Ганс Христиан Андерсен
     name: Сказки
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2011-5-2
+    date_of: '2012-11-5'
   admin31:
     author: Уильям Шекспир
     name: Гамлет
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2012-12-17
+    date_of: '2012-8-6'
   admin32:
     author: Виктор Гюго
     name: Собор Парижской Богоматери
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2012-11-6
+    date_of: '2011-8-22'
   admin33:
     author: Габриэль Гарсиа Маркес
     name: Сто лет одиночества
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2012-6-2
+    date_of: '2012-9-25'
   admin34:
     author: Михаил Шолохов
     name: Тихий Дон
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2012-12-10
+    date_of: '2012-2-10'
   admin35:
     author: Александр Грин
     name: Алые паруса
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2012-7-11
+    date_of: '2012-10-2'
   admin36:
     author: Иван Тургенев
     name: Отцы и дети
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2012-12-12
+    date_of: '2012-1-3'
   admin37:
     author: Александр Волков
     name: Волшебник Изумрудного города
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2011-9-27
+    date_of: '2011-8-22'
   admin38:
     author: Артур Конан
     name: Дойль
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2011-11-21
+    date_of: '2012-1-16'
   admin39:
     author: Рэй Брэдбери
     name: градус по Фаренгейту
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2012-6-8
+    date_of: '2012-9-10'
   admin40:
     author: Вениамин Каверин
     name: Два капитана
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2012-12-22
+    date_of: '2011-9-17'
   admin41:
     author: Джек Лондон
     name: Белый Клык
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2012-2-2
+    date_of: '2011-9-18'
   admin42:
     author: Джон Толкиен
     name: Властелин колец
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2011-6-21
+    date_of: '2012-1-18'
   admin43:
     author: Александр Пушкин
     name: Капитанская дочка
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2012-6-22
+    date_of: '2011-9-14'
   admin44:
     author: Иван Гончаров
     name: Обломов
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2012-10-18
+    date_of: '2012-9-21'
   admin45:
     author: Астрид Линдгрен
     name: Малыш и Карлсон
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2012-4-24
+    date_of: '2012-4-17'
   admin46:
     author: Эрнест Хемингуэй
     name: Старик и море
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2011-11-21
+    date_of: '2011-7-2'
   admin47:
     author: Борис Васильев
     name: А зори здесь тихие
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2012-3-24
+    date_of: '2012-11-26'
   admin48:
     author: Роберт Льюис Стивенсон
     name: Остров сокровищ
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2011-9-23
+    date_of: '2012-10-15'
   admin49:
     author: Джером Д
     name: Сэлинджер
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2011-4-1
+    date_of: '2012-12-11'
   admin50:
     author: Льюис Кэрролл
     name: Алиса в стране чудес
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2012-12-27
+    date_of: '2012-9-2'
   admin51:
     author: Эрих Мария Ремарк
     name: Триумфальная арка
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2011-2-27
+    date_of: '2011-3-21'
   admin52:
     author: Жюль Верн
     name: Дети капитана Гранта
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2011-3-26
+    date_of: '2011-12-10'
   admin53:
     author: Марк Твен
     name: Приключения Гекльберри Финна
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2012-4-27
+    date_of: '2011-7-18'
   admin54:
     author: Николай Гоголь
     name: Тарас Бульба
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2011-10-23
+    date_of: '2011-6-24'
   admin55:
     author: Николай Гоголь
     name: Ревизор
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2011-8-12
+    date_of: '2012-6-5'
   admin56:
     author: Кен Кизи
     name: Пролетая над гнездом кукушки
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2012-6-27
+    date_of: '2012-11-12'
   admin57:
     author: Алан Александр Милн
     name: Винни
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2011-2-10
+    date_of: '2011-7-15'
   admin58:
     author: Патрик Зюскинд
     name: Парфюмер
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2011-10-22
+    date_of: '2011-5-20'
   admin59:
     author: Джоан Роулинг
     name: Серия книг о Гарри Поттере
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2012-8-1
+    date_of: '2011-6-15'
   admin60:
     author: Жюль Верн
     name: Таинственный остров
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2012-2-11
+    date_of: '2011-11-15'
   admin61:
     author: Борис Акунин
     name: Приключения Эраста Фандорина
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2011-4-24
+    date_of: '2012-9-7'
   admin62:
     author: Леонид Филатов
     name: Про Федота
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2012-12-17
+    date_of: '2012-9-6'
   admin63:
     author: Аркадий и Борис Стругацкие
     name: Пикник на обочине
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2012-8-24
+    date_of: '2011-5-24'
   admin64:
     author: Колин Маккалоу
     name: Поющие в терновнике
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2012-4-3
+    date_of: '2011-12-24'
   admin65:
     author: Эрих Мария Ремарк
     name: На западном фронте без перемен
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2011-2-21
+    date_of: '2012-12-15'
   admin67:
     author: Джек Лондон
     name: Мартин Иден
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2012-7-2
+    date_of: '2012-9-19'
   admin68:
     author: Эмили Бронте
     name: Грозовой перевал
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2012-10-16
+    date_of: '2011-1-15'
   admin69:
     author: Антон Чехов
     name: Палата
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2011-7-16
+    date_of: '2011-1-12'
   admin70:
     author: Михаил Булгаков
     name: Белая гвардия
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2012-5-17
+    date_of: '2012-1-16'
   admin71:
     author: Аркадий и Борис Стругацкие
     name: Трудно быть богом
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2011-9-17
+    date_of: '2011-3-24'
   admin72:
     author: Александр Пушкин
     name: Повести Белкина
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2011-4-26
+    date_of: '2012-10-5'
   admin73:
     author: Джером К
     name: Джером
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2012-3-16
+    date_of: '2011-4-4'
   admin74:
     author: Владимир Высоцкий
     name: Нерв
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2012-12-10
+    date_of: '2011-7-10'
   admin75:
     author: Борис Пастернак
     name: Доктор Живаго
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2012-10-17
+    date_of: '2012-2-12'
   admin76:
     author: Виктор Гюго
     name: Отверженные
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2011-4-6
+    date_of: '2012-12-15'
   admin77:
     author: Александр Беляев
     name: Человек
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2011-12-25
+    date_of: '2011-5-1'
   admin78:
     author: Стендаль
     name: Красное и чёрное
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2011-3-23
+    date_of: '2012-4-9'
   admin79:
     author: Эдгар По
     name: Рассказы
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2012-3-20
+    date_of: '2012-10-11'
   admin80:
     author: Александр Пушкин
     name: Сказка о рыбаке и рыбке
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2012-10-27
+    date_of: '2012-12-12'
   admin81:
     author: Алексей Толстой
     name: Пётр
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2012-8-1
+    date_of: '2011-4-14'
   admin82:
     author: Марк Твен
     name: Принц и нищий
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2011-5-3
+    date_of: '2012-7-10'
   admin83:
     author: Теодор Драйзер
     name: Американская трагедия
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2011-4-2
+    date_of: '2012-6-1'
   admin84:
     author: Мигель Сервантес
     name: Дон Кихот
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2012-8-24
+    date_of: '2011-3-19'
   admin85:
     author: Гавриил Троепольский
     name: Белый Бим Черное Ухо
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2011-6-19
+    date_of: '2012-11-24'
   admin86:
     author: Аркадий и Борис Стругацкие
     name: Понедельник начинается в субботу
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2012-12-8
+    date_of: '2012-12-11'
   admin87:
     author: Уильям Шекспир
     name: Король Лир
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2012-9-20
+    date_of: '2012-8-24'
   admin88:
     author: Иван Бунин
     name: Тёмные аллеи
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2011-12-8
+    date_of: '2012-12-20'
   admin89:
     author: Герман Гессе
     name: Степной волк
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2011-12-24
+    date_of: '2012-11-11'
   admin90:
     author: Эрих Мария Ремарк
     name: Жизнь взаймы
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2012-1-24
+    date_of: '2012-12-10'
   admin91:
     author: Герман Гессе
     name: Игра в бисер
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2012-11-18
+    date_of: '2011-10-24'
   admin92:
     author: Жюль Верн
     name: Пятнадцатилетний капитан
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2011-5-14
+    date_of: '2012-1-11'
   admin93:
     author: Евгений Шварц
     name: Обыкновенное чудо
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2012-5-21
+    date_of: '2011-2-23'
   admin94:
     author: Ярослав Гашек
     name: Похождения бравого солдата Швейка во время мировой войны
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2012-11-12
+    date_of: '2012-6-20'
   admin95:
     author: Фрэнсис Скотт Фицджеральд
     name: Великий Гэтсби
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2012-11-26
+    date_of: '2011-2-19'
   admin96:
     author: Дэниел Киз
     name: Цветы для Элджернона
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2012-8-9
+    date_of: '2011-11-16'
   admin97:
     author: Виктор Драгунский
     name: Денискины рассказы
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2011-10-25
+    date_of: '2011-6-27'
   admin98:
     author: Станислав Лем
     name: Солярис
     status: Нашел
     person_id: 1
     code: 1
-    date_of: 2012-1-26
+    date_of: '2012-8-24'

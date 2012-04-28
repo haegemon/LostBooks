@@ -41,7 +41,7 @@ string3="""    status: Нашел
     code: 1
 """
 def ggg():
-  return str(ra.randrange(2011, 2013, 1))+'-'+str(ra.randrange(1,13,1))+'-'+str(ra.randrange(1,28,1))
+  return "'"+str(ra.randrange(2011, 2013, 1))+'-'+str(ra.randrange(1,13,1))+'-'+str(ra.randrange(1,28,1))+"'"
 
 print(string1+"\nBooks:", file=fd)
 for i in range(99):

@@ -18,7 +18,7 @@ abstract class BaseBooksFormFilter extends BaseFormFilterDoctrine
       'status'    => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('bookstypes'), 'add_empty' => true)),
       'person_id' => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('person'), 'add_empty' => true)),
       'code'      => new sfWidgetFormFilterInput(),
-      'date_of'   => new sfWidgetFormFilterDate(array('from_date' => new sfWidgetFormDate(), 'to_date' => new sfWidgetFormDate(), 'with_empty' => false)),
+      'date_of'   => new sfWidgetFormFilterDate(array('from_date' => new sfWidgetFormDate(), 'to_date' => new sfWidgetFormDate())),
     ));
 
     $this->setValidators(array(
