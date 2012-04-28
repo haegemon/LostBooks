@@ -34,6 +34,7 @@ class booksActions extends sfActions
 
     $this->form = new BooksForm();
 
+
     $this->processForm($request, $this->form);
 
     $this->setTemplate('new');
@@ -65,6 +66,7 @@ class booksActions extends sfActions
 
     $this->redirect('books/index');
   }
+
 
   protected function processForm(sfWebRequest $request, sfForm $form)
   {

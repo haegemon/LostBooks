@@ -23,7 +23,7 @@
       <div id="search">
       <form action="" method="get">
       <font size=+3>&#9;&#9;&#9;<i>Поиск книг:</i></font><br>
-      <font size=-2 color=#aaaaaa>Введите сюда библиотечный код, или название:  </font><INPUT type="text">
+      <font size=-2 color=#aaaaaa>Введите сюда библиотечный код, или название:  </font><INPUT type="text" size=80>
       </form>
       </div>
       <div id="menu">
