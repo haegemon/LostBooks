@@ -10,6 +10,10 @@
  */
 class booksActions extends sfActions
 {
+  public function executeAboutus(){;}
+
+  public function executeLink(){;}
+  
   public function executeIndex(sfWebRequest $request)
   {
     $this->bookss = Doctrine_Core::getTable('Books')

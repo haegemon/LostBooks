@@ -6,19 +6,37 @@
 <input type="hidden" name="sf_method" value="put" />
 <?php endif; ?>
   <table>
-    <tfoot>
+    <tbody>
+      <table id = 'table'>
+        <tr>
+          <td><h3>Автор</h3></td><td><? echo $form['author']?></td>
+        </tr> 
+        <tr>
+          <td><h3>Название</h3></td><td><? echo $form['name']?></td>
+        </tr> 
+        <tr>
+          <td><h3>Статус</h3></td><td><? echo $form['status']?></td>
+        </tr> 
+        <tr>
+          <td><h3>Кто вы?</h3></td><td><? echo $form['person_id']?></td>
+        </tr> 
+        <tr>
+          <td><h3>Библиотечный код</h3></td><td><? echo $form['code']?></td>
+        </tr> 
+        <tr>
+          <td><h3>Дата потери</h3></td><td><? echo $form['date_of']?></td>
+        </tr> 
+      </table>
+    </tbody>
+</table>
+      <table>
       <tr>
-        <td colspan="2">
-          &nbsp;<a href="<?php echo url_for('books/index') ?>"><div id='button1'>К списку</div></a>
-          <?php if (!$form->getObject()->isNew()): ?>
-            &nbsp;<?php echo link_to('Delete', 'books/delete?id='.$form->getObject()->getId(), array('method' => 'delete', 'confirm' => 'Are you sure?')) ?>
+        <td><a href="<?php echo url_for('books/index') ?>"><div id='button1'>К списку</div></a>
+          <?php if (!$form->getObject()->isNew()): ?></td><td>
+            <?php echo link_to('Delete', 'books/delete?id='.$form->getObject()->getId(), array('method' => 'delete', 'confirm' => 'Are you sure?')) ?>
           <?php endif; ?>
           <input type="submit" id='button1' value="Save" />
         </td>
       </tr>
-    </tfoot>
-    <tbody>
-      <?php echo $form ?>
-    </tbody>
-  </table>
+    </table>
 </form>

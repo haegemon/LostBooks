@@ -30,13 +30,15 @@
         <center>
           <br>
           <ul>
-          <li><a href="<?php echo url_for('books/new') ?>"><font color=#fafafa><div id='th'>Создать новую книгу</div></font></a><br><font size=-2>если нашли или потеряли</font><br>
+          <li><a href="<?php echo url_for('books/index') ?>"><font color=#fafafa><div id='th'>На главную</div></font></a>
 &nbsp;
-          <li><div id='th'>Связаться</div>
+          <li><a href="<?php echo url_for('books/new') ?>"><font color=#fafafa><div id='th'>Создать новую книгу</div></font></a>&nbsp;<font size=-2>если нашли или потеряли</font><br>
+&nbsp;
+          <li><a href="<?php echo url_for('books/link') ?>"><font color=#fafafa><div id='th'>Связаться</div></font></a>
 &nbsp;
           <li><div id='th'>Полезные ссылки</div>
 &nbsp;
-          <li>Что-то еще (фантазия истощилась)
+          <li><a href="<?php echo url_for('books/aboutus') ?>"><font color=#fafafa><div id='th'>О нас</div></font></a>
           </ul>
         </center>
       </div>
