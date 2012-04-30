@@ -12,5 +12,16 @@ class PersonForm extends BasePersonForm
 {
   public function configure()
   {
+    $f=new BooksForm();
+    $this->setWidgets(array(
+      'id'           => new sfWidgetFormInputHidden(),
+      'code'         => new sfWidgetFormInputText(),
+      'name'         => new sfWidgetFormInputText(),
+      'people_group' => new sfWidgetFormInputText(),
+      'adress'       => new sfWidgetFormInputText(),
+      'email'        => new sfWidgetFormInputText(),
+      'book'         => new sfWidgetFormInputText(),
+    ));
+    $this->embedForm('book', $f);
   }
 }
