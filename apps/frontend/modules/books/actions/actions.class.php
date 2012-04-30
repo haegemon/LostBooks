@@ -16,15 +16,30 @@ class booksActions extends sfActions
   
   public function executeIndex(sfWebRequest $request)
   {
-
-    $this->bookss = Doctrine_Core::getTable('Books')
-      ->createQuery()
-      ->execute();
+    $g=$request->getParameter('search');
+    if($g==''){
+      $q=Doctrine_Query::create()
+        ->from('books b')
+        ->limit(20)
+        ->where('date_of is not null')
+        ->orderBy('date_of');
+    }
+    else{
+      $q=Doctrine_Query::create()
+        ->from('books b')
+        ->where("b.name like '%".$g."%' or b.author like '%".$g."%' or b.code like '%".$g."%'");
+    }
+    $this->bookss=$q->execute();
+    $this->seatch=$q;
   }
 
   public function executeShow(sfWebRequest $request)
   {
     $this->books = Doctrine_Core::getTable('Books')->find(array($request->getParameter('id')));
+    $this->bookfather=Doctrine_Query::create()
+      ->from('person p')
+      ->where('p.id='.$this->books->getPersonId())
+      ->execute();
     $this->forward404Unless($this->books);
   }
 

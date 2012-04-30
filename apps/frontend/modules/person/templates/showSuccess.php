@@ -1,6 +1,10 @@
 <table>
   <tbody>
     <tr>
+      <th>Id:</th>
+      <td><?php echo $person->getId() ?></td>
+    </tr>
+    <tr>
       <th>Code:</th>
       <td><?php echo $person->getCode() ?></td>
     </tr>
@@ -25,6 +29,6 @@
 
 <hr />
 
-<a href="<?php echo url_for('person/edit?email='.$person->getEmail()) ?>">Edit</a>
+<a href="<?php echo url_for('person/edit?id='.$person->getId()) ?>">Edit</a>
 &nbsp;
 <a href="<?php echo url_for('person/index') ?>">List</a>

@@ -21,9 +21,9 @@
       
       </div>
       <div id="search">
-      <form action="" method="get">
+      <form action="<?url_for('books/index')?>" method="get">
       <font size=+3>&#9;&#9;&#9;<i>Поиск книг:</i></font><br>
-      <font size=-2 color=#aaaaaa>Введите сюда библиотечный код, или название:  </font><INPUT type="text" size=80>
+      <font size=-2 color=#aaaaaa>Введите сюда библиотечный код, автора или название:  </font><INPUT type="text" size=80 name='search' method='get' value="<? if(isset($_REQUEST['search'])){echo $_REQUEST['search'];}?>">
       </form>
       </div>
       <div id="menu">

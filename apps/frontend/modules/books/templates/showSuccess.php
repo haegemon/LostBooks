@@ -1,3 +1,6 @@
+<?foreach($bookfather as $bf){
+   echo $bf->getName();}?>
+
 <table bgcolor=#00ccff>
   <tbody>
     <tr bgcolor=#00ccff>
@@ -14,17 +17,21 @@
     </tr>
     <tr bgcolor=#33ffff>
       <th>Статус:</th>
-      <td><?php echo $books->getStatus() ?></td>
+      <td><?php $d=$books->getStatus(); echo $d ?></td>
     </tr>
     <tr bgcolor=#44ffff>
-      <th>Кто:</th>
-      <td><?php echo $books->getPersonId() ?></td>
+      <th>Кто <?if($d=='Ищу'){echo 'ищет';}else{ echo 'нашел';}?>:</th>
+      <td><?php echo $bf->getName() ?></td>
     </tr>
     <tr bgcolor=#55ffff>
+      <th>Его email:</th>
+      <td><?php echo $bf->getEmail() ?></td>
+    </tr>
+    <tr bgcolor=#77ffff>
       <th>Биб. код:</th>
       <td><?php echo $books->getCode() ?></td>
     </tr>
-    <tr bgcolor=#66ffff>
+    <tr bgcolor=#aaffff>
       <th>Дата:</th>
       <td><?php echo $books->getDateOf() ?></td>
     </tr>
