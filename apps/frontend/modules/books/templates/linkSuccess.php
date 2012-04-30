@@ -1,7 +1,7 @@
 <div id='head'><h1>Форма связи</h1></div>
 <br>
 <? if(isset($_REQUEST['body'])){
-    if(mail("staskaledin@gmail.com", $_REQUEST['body'],$_REQUEST['text'], "From: ".$_REQUEST['mail']."\r\n")){
+    if(mail("stanislavkaledin@rambler.ru", $_REQUEST['body'],$_REQUEST['text'], "From: ".$_REQUEST['mail']."\r\n")){
       echo "<div id='table'>Письмо успешно отправлено</div>";
     }else{
      echo "<div id='table'>Письмо не было отправлено. Попробуйте еще раз.</div>";}}else{?>

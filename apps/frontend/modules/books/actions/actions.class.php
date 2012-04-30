@@ -21,8 +21,7 @@ class booksActions extends sfActions
       $q=Doctrine_Query::create()
         ->from('books b')
         ->limit(20)
-        ->where('date_of is not null')
-        ->orderBy('date_of');
+        ->orderBy('date_of desc');
     }
     else{
       $q=Doctrine_Query::create()

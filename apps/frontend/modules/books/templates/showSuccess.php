@@ -40,6 +40,6 @@
 
 <hr>
 
-<a href="<?php echo url_for('books/edit?id='.$books->getId()) ?>"><div id='button'>Править</div></a>
-&nbsp;
+<!--<a href="<?php echo url_for('books/edit?id='.$books->getId()) ?>"><div id='button'>Править</div></a>
+&nbsp;-->
 <a href="<?php echo url_for('books/index') ?>"><div id='button'>К списку</div></a>

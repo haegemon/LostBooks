@@ -1,7 +1,7 @@
 <?php use_stylesheets_for_form($form) ?>
 <?php use_javascripts_for_form($form) ?>
 
-<form action="<?php echo url_for('books/'.($form->getObject()->isNew() ? 'create' : 'update').(!$form->getObject()->isNew() ? '?id='.$form->getObject()->getId() : '')) ?>" method="post" <?php $form->isMultipart() and print 'enctype="multipart/form-data" ' ?>>
+<form action="<?php echo url_for('books/'.($form->getObject()->isNew() ? 'create' : 'index').(!$form->getObject()->isNew() ? '?id='.$form->getObject()->getId() : '')) ?>" method="post" <?php $form->isMultipart() and print 'enctype="multipart/form-data" ' ?>>
 <?php if (!$form->getObject()->isNew()): ?>
 <input type="hidden" name="sf_method" value="put" />
 <?php endif; ?>
@@ -9,10 +9,10 @@
     <tbody>
       <table id = 'table'>
         <tr>
-          <td><h3>Автор</h3></td><td><? echo $form['author']?></td>
+          <td><h3>Автор<font color='red'>*</font></h3></td><td><? echo $form['author']?></td>
         </tr> 
         <tr>
-          <td><h3>Название</h3></td><td><? echo $form['name']?></td>
+          <td><h3>Название<font color='red'>*</font></h3></td><td><? echo $form['name']?></td>
         </tr> 
         <tr>
           <td><h3>Статус</h3></td><td><? echo $form['status']?></td>
@@ -24,7 +24,7 @@
           <td><h3>Библиотечный код</h3></td><td><? echo $form['code']?></td>
         </tr> 
         <tr>
-          <td><h3>Дата потери</h3></td><td><? echo $form['date_of']?></td>
+          <td><h3>Дата потери</h3><font size=-2>Если не укажете - текущая дата</font></td><td><? echo $form['date_of']?></td>
         </tr> 
       </table>
     </tbody>
