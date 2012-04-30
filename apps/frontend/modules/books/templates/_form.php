@@ -18,7 +18,7 @@
           <td><h3>Статус</h3></td><td><? echo $form['status']?></td>
         </tr> 
         <tr>
-          <td><h3>Кто вы?</h3></td><td><? echo $form['person_id']?></td>
+          <td colspan=2><? echo $form['person_id']?></td>
         </tr> 
         <tr>
           <td><h3>Библиотечный код</h3></td><td><? echo $form['code']?></td>

@@ -1,6 +1,8 @@
 <?foreach($bookfather as $bf){
    echo $bf->getName();}?>
 
+<?$bd=url_for('books/link').'?bodyvalue=Насчет книги '.$books->getName().' автора '.$books->getAuthor()."&textvalue=Привет! У тебя есть моя книга ".$books->getName().". Не мог бы ты мне ее вернуть за вознаграждение?"?>
+
 <table bgcolor=#00ccff>
   <tbody>
     <tr bgcolor=#00ccff>
@@ -25,7 +27,7 @@
     </tr>
     <tr bgcolor=#55ffff>
       <th>Его email:</th>
-      <td><?php echo $bf->getEmail() ?></td>
+      <td><a href="<? echo $bd ?>"><?php echo $bf->getEmail() ?></a></td>
     </tr>
     <tr bgcolor=#77ffff>
       <th>Биб. код:</th>

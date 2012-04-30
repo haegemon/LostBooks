@@ -9,11 +9,11 @@
 <table id='table'>
   <tr>
     <td><h2>Тема письма:</h2></td>
-    <td><input name='body' type='text' size=40></td>
+    <td><input name='body' type='text' size=40 value="<?if(isset($_REQUEST['bodyvalue'])){echo $_REQUEST['bodyvalue'];}?>"></td>
   </tr>
   <tr>
     <td><h2>Тело письма:</h2></td>
-    <td><textarea  rows=6 cols=32 name='text'></textarea></td>
+    <td><textarea  rows=6 cols=32 name='text'><?if(isset($_REQUEST['textvalue'])){echo $_REQUEST['textvalue'];}?></textarea></td>
   </tr>
   <tr>
     <td><h2>Ваш e-mail<font color=#ff3300>*</font></h2></td>

@@ -50,7 +50,7 @@ Books:
       fixed: false
       unsigned: false
       primary: false
-      notnull: true
+      notnull: false
       autoincrement: false
     code:
       type: string(5)

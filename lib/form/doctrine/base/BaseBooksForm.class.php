@@ -19,7 +19,7 @@ abstract class BaseBooksForm extends BaseFormDoctrine
       'author'    => new sfWidgetFormInputText(),
       'name'      => new sfWidgetFormInputText(),
       'status'    => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('bookstypes'), 'add_empty' => false)),
-      'person_id' => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('person'), 'add_empty' => false)),
+      'person_id' => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('person'), 'add_empty' => true)),
       'code'      => new sfWidgetFormInputText(),
       'date_of'   => new sfWidgetFormDate(),
     ));
@@ -29,7 +29,7 @@ abstract class BaseBooksForm extends BaseFormDoctrine
       'author'    => new sfValidatorString(array('max_length' => 100)),
       'name'      => new sfValidatorString(array('max_length' => 100)),
       'status'    => new sfValidatorDoctrineChoice(array('model' => $this->getRelatedModelName('bookstypes'))),
-      'person_id' => new sfValidatorDoctrineChoice(array('model' => $this->getRelatedModelName('person'))),
+      'person_id' => new sfValidatorDoctrineChoice(array('model' => $this->getRelatedModelName('person'), 'required' => false)),
       'code'      => new sfValidatorString(array('max_length' => 5, 'required' => false)),
       'date_of'   => new sfValidatorDate(array('required' => false)),
     ));

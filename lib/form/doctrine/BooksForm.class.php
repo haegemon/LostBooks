@@ -12,5 +12,7 @@ class BooksForm extends BaseBooksForm
 {
   public function configure()
   {
+    $pers=new PersonForm();
+    $this->embedForm('person_id',$pers);
   }
 }
