@@ -16,8 +16,9 @@ class booksActions extends sfActions
   
   public function executeIndex(sfWebRequest $request)
   {
+
     $this->bookss = Doctrine_Core::getTable('Books')
-      ->createQuery('a')
+      ->createQuery()
       ->execute();
   }
 

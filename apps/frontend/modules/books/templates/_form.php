@@ -31,12 +31,13 @@
 </table>
       <table>
       <tr>
-        <td><a href="<?php echo url_for('books/index') ?>"><div id='button1'>К списку</div></a>
-          <?php if (!$form->getObject()->isNew()): ?></td><td>
-            <?php echo link_to('Delete', 'books/delete?id='.$form->getObject()->getId(), array('method' => 'delete', 'confirm' => 'Are you sure?')) ?>
-          <?php endif; ?>
-          <input type="submit" id='button1' value="Save" />
+        <td><a href="<?php echo url_for('books/index') ?>"><div id='button1'>К списку</div></a></td><td>
+          <?php if (!$form->getObject()->isNew()): ?><div id='button1'>
+            <?php echo link_to('Удалить', 'books/delete?id='.$form->getObject()->getId(), array('method' => 'delete', 'confirm' => 'Вы уверены что хотите удалить?')) ?>
+          </div></td><td><?php endif; ?>
+          <input type="submit" id='button1' value="Сохранить" />
         </td>
       </tr>
     </table>
+    <? echo $form['id']."\n".$form['_csrf_token']?>
 </form>

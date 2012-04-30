@@ -1,5 +1,4 @@
 <?
-class booksActions extends sfActions{
+class aboutusActions extends sfActions{
   public function executeIndex(){;}
 }
-?>
